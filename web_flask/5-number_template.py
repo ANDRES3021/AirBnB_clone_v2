@@ -38,7 +38,6 @@ def numberFunction(n):
     return ("{} is a number".format(n))
 
 
-
 @app.route('/number_template/<int:n>', strict_slashes=False)
 def numberTFunction(n):
     """ Responsible of the /python/text route, displays text """
