@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-""" Script that starts a Flask web application listening 0.0.0.0 port 5000:
-    The route of the domain / displays 'Hello HBNB!'
-"""
+""" Script that starts a Flask web application """
 
 from flask import Flask, render_template
-
 app = Flask(__name__)
 
 
