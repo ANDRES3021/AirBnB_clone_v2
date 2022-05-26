@@ -39,7 +39,7 @@ def textPFunction(text='is cool'):
 def numberFunction(n):
     """ Responsible of the /python/text route, displays text """
     return ("{} is a number".format(n))
-#    return f'{n} is a number'
+
 
 
 @app.route('/number_template/<int:n>', strict_slashes=False)
